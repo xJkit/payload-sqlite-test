@@ -1,5 +1,5 @@
 
-### Reproduction Steps
+## Reproduction Steps
 
 #### First, create payload app using pnpx with blank template and sqlite
 
@@ -73,4 +73,34 @@ Then you got the error message immediately:
  ○ Compiling /_error ...
  ✓ Compiled /_error in 774ms
  GET /admin 500 in 9059ms
+```
+
+## Payload Information
+
+By running `pnpm payload info` yields the following:
+
+```sh
+Binaries:
+  Node: 20.9.0
+  npm: 10.9.2
+  Yarn: 3.5.1
+  pnpm: 9.15.5
+Relevant Packages:
+  payload: 3.20.0
+  next: 15.1.5
+  @payloadcms/email-nodemailer: 3.20.0
+  @payloadcms/graphql: 3.20.0
+  @payloadcms/next/utilities: 3.20.0
+  @payloadcms/payload-cloud: 3.20.0
+  @payloadcms/richtext-lexical: 3.20.0
+  @payloadcms/translations: 3.20.0
+  @payloadcms/ui/shared: 3.20.0
+  react: 19.0.0
+  react-dom: 19.0.0
+Operating System:
+  Platform: darwin
+  Arch: x64
+  Version: Darwin Kernel Version 24.2.0: Fri Dec  6 19:02:41 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6030
+  Available memory (MB): 18432
+  Available CPU cores: 12
 ```
